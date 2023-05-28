@@ -43,10 +43,7 @@ export default function Password() {
       <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8 text-2xl">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:px-24 lg:pt-0">
           <div className="mx-auto text-center lg:mx-0 lg:flex-auto lg:py-10 lg:text-center">
-            <img
-              className="inline-flex w-48 h-48"
-              src="/public/img/senha.png"
-            ></img>
+            <img className="inline-flex w-48 h-48" src="/img/senha.png"></img>
             <h1 className="m-2">Gerador De Senha</h1>
             <label className="mb-2">Número de caracteres da senha: </label>
             <input
